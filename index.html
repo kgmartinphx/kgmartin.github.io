@@ -4,38 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Will You Be My Valentine?</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #ffebee;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #d32f2f;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #d32f2f;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 20px;
-        }
-        a:hover {
-            background-color: #b71c1c;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Will You Be My Valentine? ❤️</h1>
-    <p>Click the button below to download a special surprise for you!</p>
-    <a href="te_amo.exe" download>Download Surprise</a>
+    <div class="popup" id="popup">
+        <h1>Will You Be My Valentine? ❤️</h1>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+    </div>
+
+    <div class="final-message" id="finalMessage">
+        <h1>Yay! You make me the happiest person in da world! 🥰</h1>
+        <p>Te Amo bebe! Happy Valentine's Day! ❤️</p>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
