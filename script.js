@@ -14,7 +14,6 @@ const messages = [
     "You're too cute to say no",
     "I made this popup just for you",
     "I won't stop until you say yes",
-	"Dont be a bitch",
 	"Ima just make this loop forever until you say yes"
 ];
 
